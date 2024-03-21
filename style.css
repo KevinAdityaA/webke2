@@ -1,0 +1,258 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #110d11, #2f3030);
+  }
+
+
+header {
+    background-color: #242121;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+    bottom: 35px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #Nama {
+    background-color: auto;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #Nama h1 {
+    font-family: 'arial', cursive;
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+
+#Nama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 100px; 
+    padding: 150px;
+  }
+  
+  .nama {
+    text-align: center;
+  } 
+
+  
+  #about {
+    background: linear-gradient(135deg, #1a1a1a, #333);
+    color: #fff;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  #about .deskripsi {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+
+  #about .deskripsi p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+ #about h2 {
+    text-align: center; 
+  } 
+
+
+  #navbar {
+    text-align: right; 
+  }
+  
+  #navbar ul {
+    margin-top: 10px; 
+  }
+  
+  #navbar ul li:first-child {
+    margin-left: 20px; 
+  }
+  
+
+  #navbar ul {
+    list-style-type: none;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+
+  section {
+    padding: 100px 0;
+  }
+  
+
+  #about .tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #about .foto {
+    margin-right: 70px;
+  }
+  
+  #about .foto img {
+    width: 200px;
+    height: auto;
+    position: relative;
+    left: 100px;
+    width: 250px;
+    height: auto;
+    border: 5px solid #fff;
+    margin-right: -10cm;
+    position: relative; 
+
+  }
+
+  #sertifikat {
+    background: linear-gradient(135deg, #222, #444);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  #sertifikat h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  
+  #sertifikat ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #sertifikat li {
+    margin: 0 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #sertifikat li:hover {
+    transform: translateY(-10px);
+  }
+  
+  #sertifikat img {
+    width: 300px;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  }
+  
+  #sertifikat p {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  #pendidikan {
+    background: linear-gradient(135deg, #000000, #3f3f3f);
+    color: #fff;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  #pendidikan table {
+    width: 60%;
+    border-collapse: collapse; 
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  #pendidikan th,
+  #pendidikan td {
+    border: 1px solid #ddd; 
+    padding: 12px; 
+    text-align: left; 
+  }
+  
+  #pendidikan th {
+    background-color: #222; 
+    color: #fff;
+  }
+  
+#pendidikan {
+    text-align: center;
+    margin: 1px;
+  }
+  
+  #pendidikan h2 {
+    margin-bottom: 20px; 
+  }
+  
+  #pendidikan p {
+    text-align: center; 
+    margin-bottom: 10px;
+  } 
+  
+  #sertifikat ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #sertifikat li {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  #sertifikat li p {
+    margin-top: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
